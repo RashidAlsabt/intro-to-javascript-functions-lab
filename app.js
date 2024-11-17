@@ -179,15 +179,15 @@ Example: basicCalculator(10, 5, 'subtract') should return 5.
 
 Complete the exercise in the space below:
 */
-const basicCalculator = (num1, num2, operator) =>{
+const basicCalculator = (num1, num2, operator) => {
     let smallOperator = operator.toLowerCase()
-    if (smallOperator === "add"){
+    if (smallOperator === "add") {
         return num1 + num2
     } else if (smallOperator === "subtract") {
         return num1 - num2
-    }else if (smallOperator === "divide") {
-        return num1/num2
-    }else if (smallOperator === "multiply") {
+    } else if (smallOperator === "divide") {
+        return num1 / num2
+    } else if (smallOperator === "multiply") {
         return num1 * num2
     } else {
         return "you made a grave error in your judgement"
